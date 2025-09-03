@@ -251,13 +251,13 @@ Now you can install Nextflow by opening a terminal and executing the following l
 High performance computers
 """"""""""""""""""""""""""
 
-The first use of a computing platform can be tricky but you'll get used to it. Here we explain how to get started on Beluga, one of the high performance computers (HPC) of the Digital Research Alliance of Canada (formerly Compute Canada). 
+The first use of a computing platform can be tricky but you'll get used to it. Here we explain how to get started on Rorqual, one of the high performance computers (HPC) of the Digital Research Alliance of Canada (formerly Compute Canada). 
 
-Connect to Beluga via ssh with :bash:`ssh USER@beluga.computecanada.ca`.
+Connect to Rorqual via ssh with :bash:`ssh USER@rorqual.alliancecan.ca`.
 
 On your first visit, you will probably want to edit your .bashrc with your preferences. Since VSCode will not be available, you will have to use an editor built in the terminal like Nano (:bash:`nano ~/.bashrc`) or Vim (:bash:`vim ~/.bashrc`). Please refer to the :ref:`ref_linux` if you don't know these tools.
 
-Everytime you log in Beluga, you will need to load the modules necessary for your needs (scilpy, tractoflow, etc). Here are the modules currently needed for running Nextflow pipelines:
+Everytime you log in Rorqual, you will need to load the modules necessary for your needs (scilpy, tractoflow, etc). Here are the modules currently needed for running Nextflow pipelines:
 
 .. code-block:: bash
 
