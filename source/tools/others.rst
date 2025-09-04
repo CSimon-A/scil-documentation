@@ -117,17 +117,50 @@ Installation
 
 Since the installation is not that easy and it takes a few GB of space, you might want to consider using :ref:`ref_containers` for occasional use. However if you want to install ANTs, follow these steps or visit their `Github page <https://github.com/ANTsX/ANTs/wiki/Compiling-ANTs-on-Linux-and-Mac-OS>`__:
 
-    * Create a folder that will contain the ANTs scripts and go in it. For instance: :bash:`mkdir ~/YOUR_SOFTWARES/ANTs; cd ~/YOUR_SOFTWARES/ANTs`.
-    * Download this `file <https://github.com/cookpa/antsInstallExample/blob/master/installANTs.sh>`_ and put it in your ANTs folder.
-    * Run :bash:`bash installANTs.sh`.
-    * Add those two lines to your .bashrc:
 
-        .. code-block:: bash
+* Download the precompiled binary from the official `GitHub <https://github.com/ANTsX/ANTs/releases>` releases page.
+Example: `ants-2.6.2-ubuntu-24.04-X64-gcc.zip`
 
-            export ANTSPATH=~/YOUR_SOFTWARES/ANTs/install/bin
-            export PATH=${ANTSPATH}:$PATH
+* Copy or move the file into your chosen software directory, e.g.:
 
-Once installed, you should be able to type :bash:`antsRegistration` to see the help display.
+
+.. code-block:: bash
+
+     ~/YOUR_SOFTWARES/ANTs
+
+* Unzip the package:
+
+ .. code-block:: bash
+
+    cd ~/YOUR_SOFTWARES/ANTs
+    nuzip ants-2.6.2-ubuntu-24.04-X64-gcc.zip
+
+* Navigate to the installation folder:
+
+   .. code-block:: bash
+
+    cd ~/YOUR_SOFTWARES/ANTs/ants-2.6.2
+
+* Add ANTs to your PATH:
+Edit your ~/.bashrc and add:
+.. code-block:: bash
+
+    export ANTSPATH=~/YOUR_SOFTWARES/ANTs/ants-2.6.2/bin
+    export PATH=${ANTSPATH}:$PATH
+
+* Then reload your shell:
+.. code-block:: bash
+
+    source ~/.bashrc
+
+* Test the installation by running:
+.. code-block:: bash
+
+    antsRegistration
+
+If the help message appears, ANTs is correctly installed.
+
+
 
 Useful Commands
 ^^^^^^^^^^^^^^^
