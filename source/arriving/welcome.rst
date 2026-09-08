@@ -51,6 +51,6 @@ To get started, complete these steps. Don't hesitate to contact your supervisor 
   | You should be able to access our data server, Braindata, using your CIP and University password. Braindata is useful for heavy data storage. To connect to the server, see :ref:`this link <ref_heavy_storage>`.
 
 * | **Create a Digital Research Alliance of Canada account (optional)**
-  | This gives you access to high performance computers (HPC). `Create an account here <https://ccdb.computecanada.ca/security/login>`_. When creating your account, ask your supervisor for your sponsor's ID.
+  | This gives you access to high performance computers (HPC). `Create an account here <https://ccdb.computecanada.ca/security/login>`_. When creating your account, ask your supervisor for your sponsor's ID. Don't forget to set up your multifactor authentication management.
 
 Now get going with the next step, :ref:`ref_setupcomputer`!
